@@ -1,0 +1,263 @@
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Register</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="http://serene-everglades-8896.herokuapp.com/static/images/ct_ico.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="http://serene-everglades-8896.herokuapp.com/static/css/ct.css" type="text/css">
+		
+
+
+		<script src="http://serene-everglades-8896.herokuapp.com/js/jquery-1.8.2.js" type="text/javascript"></script>
+
+
+
+		<script type="text/javascript" src="http://serene-everglades-8896.herokuapp.com/platform.twitter.com/widgets.js"></script>
+		
+	<meta name="layout" content="frame"/>
+	<link rel="stylesheet" href="http://serene-everglades-8896.herokuapp.com/static/css/user.css" type="text/css">
+	<link rel="stylesheet" media="screen" href="http://serene-everglades-8896.herokuapp.com/static/css/jquery-ui-1.9.2.custom.css" type="text/css">
+	<script src="http://serene-everglades-8896.herokuapp.com/js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+
+	
+	
+	
+	
+
+		
+	</head>
+	<body>
+		
+		
+
+<p/>
+<div id="page-body-small" role="main" class="theRegister s2ui_center ui-corner-all" style=" width: 680px; ">
+	<div class="login-inner">
+		<form action="/register/register" method="post" name="registerForm" id="registerForm" >
+			<div class="sign-in">
+				
+					<br/>
+					<table id="register_table">
+						<tr  >
+							<td></td>
+							<td></td>
+							<td class="fb_td"  rowspan="7">
+								<a href="http://serene-everglades-8896.herokuapp.com/register/index">
+									<div></div>
+								</a>
+								<ul style="list-style: none;">
+									<li>								
+										<input type="checkbox" class="checkbox" name="" id="remember_me" checked="checked" />
+										<label id="labelRemeber" for='remember_me'>Remember me</label>
+										</li>
+										<li>
+										<input type="checkbox" class="checkbox" name="" id="newsletter" />
+										<label id="labelNewsletter" for='newsletter'>Sign me up to the Newsletter</label>
+									</li>
+									<li>
+										<input type="checkbox" class="checkbox" name="" id="acceptTerms" />
+										<label id="labelAcceptTerms" for='acceptTerms'>I Accept</label>
+										&nbsp; <a href="http://serene-everglades-8896.herokuapp.com/about/frameLegalTerms" target="_blank">Terms & Conditions</a>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+	<td>
+		<div class="fieldcontain  required">
+		<span class="required-indicator fieldRquired">*</span>
+		<label for="forename">
+			Name
+		</label>
+		</div>
+	</td>
+	<td>
+		<input name="forename" value="" id="forename" size="27"  />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  required">
+		<span class="required-indicator fieldRquired">*</span>
+		<label for="surname">
+			Surname
+		</label>
+		</div>
+	</td>
+	<td>
+		<input name="surname" value="" id="surname0" size="27" />
+</tr>
+
+<tr>
+	<td>
+		<div class="fieldcontain  required">	
+		
+		</div>
+	</td>
+	<td>
+		<input type="password" name="salesCode" value="" id="salesCode" placeholder="Unique T-shirt code"  size="27" />		
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain error required">
+		<span class="required-indicator fieldRquired">*</span>
+		<label for="username">
+			Username
+		</label>
+		</div>
+	</td>
+	<td>
+		<input name="username" value="" id="username" size="27" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain error required">
+			<span class="required-indicator fieldRquired">*</span>
+			<label for="email">
+				E-mail address
+			</label>
+		</div>
+	</td>
+	<td>
+		<input name="email" value="" id="email" size="27" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  ">
+			<label for="gender">
+				Gender
+			</label>
+		</div>
+	</td>
+	<td>
+		<select name="command.gender" id="command.gender" >
+<option value="Male" >Male</option>
+<option value="Female" >Female</option>
+</select>
+
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  ">
+			<label for="birthDate">
+				Date of Birth
+			</label>
+		</div>
+	</td>
+	<td>
+		<input name="birthDate" value="" id="birthDate" />
+
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  ">
+			<label for="city">
+				City of Residence
+			</label>
+		</div>
+	</td>
+	<td>
+		<input name="city" value="" id="city" size="27" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  ">
+			<span class="required-indicator fieldRquired">*</span>
+			<label for="country">
+				Country of Origin
+			</label>
+		</div>
+	</td>
+	<td>
+		<input name="country" value="" id="country" size="27" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain error required">
+			<span class="required-indicator fieldRquired">*</span>
+			<label for="password">
+				Password
+			</label>
+		</div>
+	</td>
+	<td>
+		<input type="password"  name="password" value="" id="password" size="27" />
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="fieldcontain  required">
+			<span class="required-indicator fieldRquired">*</span>
+			<label for="password">
+				Retype Password
+			</label>
+		</div>
+	</td>
+	<td>
+		<input type="password"  name="password2" value="" id="password2" size="27" />
+	</td>
+</tr>
+  
+					</table>
+					
+					<input class="wrapper" type="submit" value=" " id="create_submit" >
+					<p id="singUpTxt" class="tresDFont" onclick="">Sing Up</p>
+					<br/>
+				
+			</div>
+		</form>
+		<div>
+			
+				<ul class="errors" role="alert">
+					
+					<li data-field-id="username">Username is required</li>
+					
+					<li data-field-id="email">Email is required</li>
+					
+					<li data-field-id="password">Password is required</li>
+					
+				</ul>
+			
+		</div>
+		<img id="polaroid_image" src="http://serene-everglades-8896.herokuapp.com/static/images/polaroid_image.png">
+</div>
+</div>
+
+<script>
+$(document).ready(function() {
+	$('#forename').focus();
+});
+$('#singUpTxt').bind('click', function() {
+	   document.forms.registerForm.submit();
+});
+</script>
+
+
+		
+		<div id="spinner" class="spinner" style="display:none;">
+			Loading&hellip;
+		</div>
+		
+		<script src="http://serene-everglades-8896.herokuapp.com/static/js/application.js" type="text/javascript" ></script>
+<script type="text/javascript">
+	$(function() {
+	  $( "#birthDate" ).datepicker({dateFormat: 'yy/mm/dd', minDate: "-99Y", maxDate: "+0D",changeYear: true });
+	});
+	</script>
+	</body>
+	
+</html>
