@@ -1,1 +1,0 @@
-Name	Surname	Unique_T-Shirt_code	Username	Email_Address	Gender	City_of_residence	Country_of_Origin	Password	Newsletter
